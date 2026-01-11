@@ -24,7 +24,7 @@ Input: `Mars is called the [MASK] planet`
 Reconstructed: `Mars is called the red planet`
 
 Input: `Online learning improves [MASK] access`
-Reconstructed**: `Online learning improves educational access`
+Reconstructed: `Online learning improves educational access`
 
 Visualization
 

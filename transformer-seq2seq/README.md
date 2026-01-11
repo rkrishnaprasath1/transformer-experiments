@@ -62,8 +62,6 @@ Visualization
 (The heatmap above shows the Cross-Attention weights. The x-axis matches Source tokens and y-axis matches Generated Target tokens, showing which words the model focused on.)
 
 Generated Outputs
-PS D:\LLM_Experiments> cd transformer-seq2seq                                     
-PS D:\LLM_Experiments\transformer-seq2seq> python train.py                        
 Training on 10 samples with vocab size 74...                                      
 Epoch 20, Loss: 0.0281
 Epoch 40, Loss: 0.0098
@@ -76,7 +74,7 @@ Epoch 160, Loss: 0.0010
 Epoch 180, Loss: 0.0008
 Epoch 200, Loss: 0.0006
 Training Complete. Model and Vocab Saved.
-PS D:\LLM_Experiments\transformer-seq2seq> python inference.py                    
+
 Model Loaded. Vocabulary Size: 74                                                 
 
 --- Inference Results ---
@@ -95,4 +93,3 @@ Output: Positional encoding provides word order information
 Input : In the future, AI will
 Output: In the future, AI will automate decision systems
 ------------------------------
-PS D:\LLM_Experiments\transformer-seq2seq> 

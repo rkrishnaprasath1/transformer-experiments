@@ -2,7 +2,7 @@
 
 This repository contains PyTorch implementations of Transformer architectures to demonstrate their core mechanisms: **Autoencoding (Masked Language Modeling)** and **Autoregression (Seq2Seq Generation)**.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 transformer-experiments/
@@ -21,7 +21,7 @@ transformer-experiments/
 
 ---
 
-## 🔬 Experiment 1: Transformer Encoder (Autoencoding)
+## Experiment 1: Transformer Encoder (Autoencoding)
 
 **Objective:** Understand Self-Attention and how models like BERT learn context by reconstructing masked words.
 
@@ -46,7 +46,7 @@ python3 transformer-encoder-autoencoding/visualize_attention.py
 
 ---
 
-## 🔬 Experiment 2: Transformer Decoder (Seq2Seq)
+## Experiment 2: Transformer Decoder (Seq2Seq)
 
 **Objective:** Understand Autoregression, Causal Masking, and Encoder-Decoder interaction for text generation.
 
@@ -68,7 +68,7 @@ python3 transformer-seq2seq/visualize_attention.py
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository:**
    ```bash
@@ -82,7 +82,7 @@ python3 transformer-seq2seq/visualize_attention.py
    ```
    *(Note: If you don't have a GPU, install the CPU version of PyTorch).*
 
-## 📊 Results Summary
+## Results Summary
 - **MLM:** Successfully reconstructs masked terms in educational sentences with low loss (< 0.005).
 - **Seq2Seq:** accurately paraphrases inputs and generates answers to set questions after ~160 epochs.
 
