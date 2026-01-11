@@ -7,7 +7,7 @@ To understand Decoder-only Transformers, Causal Masking, Autoregression, and Seq
 
 Encoder-Decoder Flow
 
-![Encoder-Decoder Flow](samples/encoder_decoder_flow.png)
+![Updated Encoder-Decoder Flow](samples/encoder_decoder_flow.png)
 
 1.  Input Processing: The source sentence (English) is tokenized and converted to embeddings.
 2.  Encoder: 
